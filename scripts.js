@@ -1,8 +1,15 @@
 // FILL IN THE FUNCTIONS BELOW
 
 var sprintFunctions = {
-  largestEl: function(){  
-    // your code here
+  largestEl: function(element){  
+  var array = [1,2,3];
+  var largest = array[0];
+  for (var i=0; i<array.length; i++) {
+    if (largest < array[element]) {
+        largest = array[element];
+  }
+    return largest;
+  }
   },
   
   reversed: function(){  
